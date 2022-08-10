@@ -106,7 +106,7 @@ public class DBSource {
         contentValues.put(DBHelper.COLUMN_NAME, b.getNama());
         contentValues.put(DBHelper.COLUMN_HARGA, b.getHarga());
         contentValues.put(DBHelper.COLUMN_MERK, b.getMerk());
-        
+
         database.update(DBHelper.TABLE_NAME, contentValues, strFilter, null);
 
 
